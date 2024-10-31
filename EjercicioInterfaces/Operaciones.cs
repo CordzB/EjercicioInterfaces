@@ -32,11 +32,11 @@ namespace EjercicioInterfaces
         public void Imprimir()
         {
             Console.WriteLine($"---------RESULTADOS---------");
-            Console.WriteLine($"Área: {CalcularArea(5)}");
-            Console.WriteLine($"Perímetro: {CalcularPerimetro(4)}");
-            Console.WriteLine($"Volumen: {CalcularVolumen(3, 10)}");
-            Console.WriteLine($"Longitud: {CalcularLongitud(8)}");
-            Console.WriteLine($"Superficie: {CalcularSuperficie(6, 7)}");
+            Console.WriteLine($"Área: {CalcularArea(5)}m²");
+            Console.WriteLine($"Perímetro: {CalcularPerimetro(4)}m");
+            Console.WriteLine($"Volumen: {CalcularVolumen(3, 10)}m³");
+            Console.WriteLine($"Longitud: {CalcularLongitud(8)}m");
+            Console.WriteLine($"Superficie: {CalcularSuperficie(6, 7)}m²");
 
         }
     }
