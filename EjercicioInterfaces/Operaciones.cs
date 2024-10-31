@@ -21,7 +21,7 @@ namespace EjercicioInterfaces
 
         public double CalcularLongitud(double distancia)
         {
-            return distancia * 2; // Ejemplo simple
+            return distancia * 2;
         }
 
         public double CalcularSuperficie(double largo, double ancho)
@@ -31,6 +31,7 @@ namespace EjercicioInterfaces
 
         public void Imprimir()
         {
+            Console.WriteLine($"---------RESULTADOS---------");
             Console.WriteLine($"Área: {CalcularArea(5)}");
             Console.WriteLine($"Perímetro: {CalcularPerimetro(4)}");
             Console.WriteLine($"Volumen: {CalcularVolumen(3, 10)}");
